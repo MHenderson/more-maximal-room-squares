@@ -9,7 +9,7 @@ library(targets)
 
 # Set target options:
 tar_option_set(
-  packages = c("dplyr", "purrr", "tibble") # packages that your targets need to run
+  packages = c("dplyr", "ggplot2", "purrr", "tibble") # packages that your targets need to run
   # format = "qs", # Optionally set the default storage format. qs is fast.
   #
   # For distributed computing in tar_make(), supply a {crew} controller
@@ -64,5 +64,24 @@ list(
       }
       r
     }
+  ),
+  tar_target(
+    name = example_square_plot,
+    command = {
+      ggplot(data = example_square$cells, aes(col, row)) +
+        geom_text(data = example_square$cells |> filter(!is.na(first)), aes(label = paste(first, second, sep = ","))) +
+        geom_segment(data = grid_lines(9, 9), aes(x = x, y = y, xend = xend, yend = yend), linewidth = .1) +
+        scale_y_reverse() +
+        coord_fixed() +
+        theme_void() +
+        theme(
+          legend.position  = "none"
+        )
+    }
+  ),
+  tar_target(
+    name = save_example_square_plot,
+    command = ggsave(plot = example_square_plot, filename = "img/example-square-plot.png", bg = "white", width = 1000, height = 1000, units = "px"),
+    format = "file"
   )
 )
