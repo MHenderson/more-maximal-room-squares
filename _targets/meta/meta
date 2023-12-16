@@ -1,0 +1,13 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|d08e111dcaf5a279|||||||||||||||
+all_ordered_pairs|function|fd70f8812a57f63a|||||||||||||||
+all_pairs|function|0122813d2df60f2b|||||||||||||||
+example_square|stem|6107fa208eea32d9|5b52292076fb2904|cee08d998dc990bd|-1152733714||t19707.7206536276s|b892e4e84b49c0f6|14617|rds|local|vector|||0.535||
+example_square_plot|stem|b067304cb600fd20|784f26f64cc5c202|a1b5c3f1c80c0f35|1462431699||t19707.7261819609s|9b712a4d676df57c|125332|rds|local|vector|||0.083||
+grid_lines|function|dda92efd0fc5213b|||||||||||||||
+horiz_lines|function|19853ce620c10b24|||||||||||||||
+is_subset|function|e65db254fe5dcf97|||||||||||||||
+remove_both|function|4179229d6b086fbb|||||||||||||||
+Room|object|4c37d216a4319bb8|||||||||||||||
+save_example_square_plot|stem|fa266ce9221b0107|0d1f713518cad50f|a3295d2826fb3f07|476347065|img/example-square-plot.png|t19707.7278283497s|28c7f87a4f688c71|31258|file|local|vector|||0.32||
+vertical_lines|function|18ae0b56c415a8cd|||||||||||||||
