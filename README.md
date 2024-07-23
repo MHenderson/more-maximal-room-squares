@@ -1,5 +1,5 @@
 # more-maximal-room-squares
 
-An R6-based implementation of maximal partial Room squares
+Room squares in R using R6.
 
-![](img/example-square-plot.png)
+![](plots/example-square-plot.png)
