@@ -687,13 +687,8 @@
     "wallis": {
       "Package": "wallis",
       "Version": "0.0.0.9007",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "MHenderson",
-      "RemoteRepo": "wallis",
-      "RemoteRef": "main",
-      "RemoteSha": "d9c85f030a46bf287ca1c5a02d3854e9a571206b",
+      "Source": "Repository",
+      "Repository": "https://mhenderson.r-universe.dev",
       "Requirements": [
         "R6",
         "dplyr",
@@ -701,7 +696,7 @@
         "tibble",
         "tidyr"
       ],
-      "Hash": "f51a04bcc39e4ade628ca6cc91cf0c49"
+      "Hash": "65a8e3ab38616963efe377f06dde00ff"
     },
     "withr": {
       "Package": "withr",
