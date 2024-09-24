@@ -1,5 +1,7 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|92320b45ca83408c
-example_square|stem|6f4629d06a4fc1e5|b55df8c497563a4d|2c530c1562a7fbd1|207013656||t19927.373025329s|fbc56cce009566a3|43158|rds|local|vector|||0.845||
-example_square_plot|stem|eede27c6caf68b9d|c26cb06c751965a1|5a2df8ba99582996|481429732||t19927.3730290791s|38710c2e021d153f|200522|rds|local|vector|||0.085||
-save_example_square_plot|stem|689c274d4e58e486|def9eeb2a04d4a60|832f23eb926fa516|-826466974|plots/example-square-plot.png|t19927.3730336625s|6f27d3748dadb3ba|31258|file|local|vector|||0.574||
+.Random.seed|object|479427f340dfed3e|||||||||||||||
+colour_example_plot|stem|1771ac0da9c21158|020ad3f25a41a9b3|5634327074e2ae46|-1780225720||t19990.4126640953s|c6e6763b9f2eeea0|208846|rds|local|vector|||0.036||
+example_square|stem|d932828b4d3aa0bc|d7d983be7b6dff07|2c530c1562a7fbd1|207013656||t19990.4126624749s|74c6aa67f05538df|43155|rds|local|vector|||0.57||
+example_square_plot|stem|bd4f20d0ea69491a|c26cb06c751965a1|5634327074e2ae46|481429732||t19990.4126652065s|8f6343af8641bb7a|203900|rds|local|vector|||0.009||
+save_colour_example_plot|stem|4c55c56bf1ca66a4|4bb60a212a45b60b|1ee48dade35426eb|2143852445|plots/colour-example-plot.png|t19990.413871071s|fb8315c15b9d0509|125555|file|local|vector|||0.688||
+save_example_square_plot|stem|689c274d4e58e486|def9eeb2a04d4a60|8e741bd8d8534bb8|-826466974|plots/example-square-plot.png|t19990.4126691417s|6f27d3748dadb3ba|31258|file|local|vector|||0.338||
